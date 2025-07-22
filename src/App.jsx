@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
 // import { LegacyESLint } from "eslint/use-at-your-own-risk";
+//what is this ESLint?
 
 // src/App.jsx
 
@@ -68,3 +69,5 @@ function App() {
 }
 
 export default App;
+// css styling only happens on the exterior of weatherData container?
+// why weatherData arrow function needed ()? when

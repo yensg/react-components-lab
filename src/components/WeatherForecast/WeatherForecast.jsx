@@ -4,6 +4,10 @@ import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import WeatherData from "./WeatherData";
 
+// module.css doesnt work? why it still showing flex?
+// there's no way we can insert weatherIcon within weatherData?
+// why we cant use rsc?
+
 function WeatherForecast(props) {
   const weatherIcon = () => {
     return <WeatherIcon img={props.img} imgAlt={props.imgAlt} />;
@@ -27,6 +31,8 @@ function WeatherForecast(props) {
 }
 
 export default WeatherForecast;
+
+//why this function needs to be invoked but arrow function no need?
 
 //   return (
 //     <div className="weather">
